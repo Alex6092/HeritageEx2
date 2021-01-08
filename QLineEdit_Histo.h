@@ -15,7 +15,7 @@ private:
 	}
 
 protected:
-	void keyPressEvent(QKeyEvent *e);
+	virtual void keyPressEvent(QKeyEvent *e);
 
 public:
 	QLineEdit_Histo();
